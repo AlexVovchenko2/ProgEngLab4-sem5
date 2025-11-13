@@ -9,7 +9,7 @@
             Представляет баскетболиста с основными атрибутами: очки, подборы, блок-шоты.
             </summary>
         </member>
-        <member name="M:lab4.Basketballer.#ctor(System.String,System.Int32)">
+        <member name="M:lab4.Basketballer.#ctor(System.String,System.Int32,System.Int32)">
             <summary>
             Создаёт нового баскетболиста.
             </summary>
@@ -52,12 +52,18 @@
             </summary>
             <returns><c>true</c>, если рост ≥ 205 см; иначе <c>false</c>.</returns>
         </member>
+        <member name="M:lab4.Basketballer.AddGames(System.Int32)">
+            <summary>
+            Увеличивает счётчик сыгранных игр.
+            </summary>
+            <param name="count">Количество добавляемых игр (≥ 0).</param>
+        </member>
         <member name="T:lab4.Footballer">
             <summary>
             Представляет футболиста с основными характеристиками и возможностями.
             </summary>
         </member>
-        <member name="M:lab4.Footballer.#ctor(System.String,System.Int32,System.String,System.String)">
+        <member name="M:lab4.Footballer.#ctor(System.String,System.Int32,System.String,System.String,System.Int32)">
             <summary>
             Инициализирует нового футболиста с указанными параметрами.
             </summary>
@@ -100,6 +106,12 @@
             <returns>Положительное число, если у <paramref name="a"/> больше голов;
             отрицательное — если у <paramref name="b"/>;
             0 — если одинаково.</returns>
+        </member>
+        <member name="M:lab4.Footballer.AddGames(System.Int32)">
+            <summary>
+            Увеличивает счётчик сыгранных игр.
+            </summary>
+            <param name="count">Количество добавляемых игр (≥ 0).</param>
         </member>
     </members>
 </doc>
