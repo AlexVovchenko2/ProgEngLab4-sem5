@@ -21,13 +21,13 @@ namespace lab4
         /// <param name="age">Возраст футболиста (должен быть ≥ 16).</param>
         /// <param name="position">Позиция на поле (например, "нападающий", "защитник").</param>
         /// <param name="club">Клуб, за который играет футболист.</param>
-        public Footballer(string name, int age, string position, string club = "неизвестен", int games = 0)
+        public Footballer(string name, int age, string position, string club = "unknown", int games = 0)
         {
             _name = name ?? throw new ArgumentNullException(nameof(name));
             if (age < 16) throw new ArgumentOutOfRangeException(nameof(age), "Возраст должен быть не менее 16.");
             _age = age;
-            _position = position ?? "неизвестно";
-            _club = club ?? "неизвестен";
+            _position = position ?? "unknown";
+            _club = club ?? "unknown";
             _goalsScored = 0;
             _games = games;
         }
