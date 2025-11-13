@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lab4</name>
+    </assembly>
+    <members>
+        <member name="T:lab4.Basketballer">
+            <summary>
+            Представляет баскетболиста с основными атрибутами: очки, подборы, блок-шоты.
+            </summary>
+        </member>
+        <member name="M:lab4.Basketballer.#ctor(System.String,System.Int32)">
+            <summary>
+            Создаёт нового баскетболиста.
+            </summary>
+            <param name="name">Имя баскетболиста.</param>
+            <param name="heightCm">Рост в сантиметрах (150–250).</param>
+        </member>
+        <member name="M:lab4.Basketballer.AddPoints(System.Int32)">
+            <summary>
+            Добавляет набранные очки.
+            </summary>
+            <param name="points">Количество очков (≥ 0).</param>
+        </member>
+        <member name="M:lab4.Basketballer.AddRebounds(System.Int32)">
+            <summary>
+            Добавляет подборы.
+            </summary>
+            <param name="rebounds">Количество подборов (≥ 0).</param>
+        </member>
+        <member name="M:lab4.Basketballer.AddBlocks(System.Int32)">
+            <summary>
+            Добавляет блок-шоты.
+            </summary>
+            <param name="blocks">Количество блок-шотов (≥ 0).</param>
+        </member>
+        <member name="M:lab4.Basketballer.GetProductivityScore">
+            <summary>
+            Оценивает продуктивность игрока по формуле: очки + подборы + блок-шоты.
+            </summary>
+            <returns>Целочисленная оценка продуктивности.</returns>
+        </member>
+        <member name="M:lab4.Basketballer.ToString">
+            <summary>
+            Возвращает описание игрока, включая рост и статистику.
+            </summary>
+            <returns>Строковое представление объекта.</returns>
+        </member>
+        <member name="M:lab4.Basketballer.IsCenter">
+            <summary>
+            Является ли игрок "центровым": рост ≥ 205 см.
+            </summary>
+            <returns><c>true</c>, если рост ≥ 205 см; иначе <c>false</c>.</returns>
+        </member>
+        <member name="T:lab4.Footballer">
+            <summary>
+            Представляет футболиста с основными характеристиками и возможностями.
+            </summary>
+        </member>
+        <member name="M:lab4.Footballer.#ctor(System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Инициализирует нового футболиста с указанными параметрами.
+            </summary>
+            <param name="name">Имя футболиста.</param>
+            <param name="age">Возраст футболиста (должен быть ≥ 16).</param>
+            <param name="position">Позиция на поле (например, "нападающий", "защитник").</param>
+            <param name="club">Клуб, за который играет футболист.</param>
+        </member>
+        <member name="M:lab4.Footballer.ToString">
+            <summary>
+            Возвращает информацию о футболисте в виде строки.
+            </summary>
+            <returns>Строковое представление объекта Footballer.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:lab4.Footballer.ScoreGoals(System.Int32)" -->
+        <member name="M:lab4.Footballer.ChangeClub(System.String)">
+            <summary>
+            Изменяет клуб футболиста.
+            </summary>
+            <param name="newClub">Название нового клуба.</param>
+        </member>
+        <member name="M:lab4.Footballer.IsExperienced">
+            <summary>
+            Проверяет, является ли футболист опытным (возраст ≥ 28 и забил хотя бы 50 голов).
+            </summary>
+            <returns><c>true</c>, если опытный; иначе <c>false</c>.</returns>
+        </member>
+        <member name="M:lab4.Footballer.CompareByGoals(lab4.Footballer,lab4.Footballer)">
+            <summary>
+            Статический метод для сравнения двух футболистов по количеству голов.
+            </summary>
+            <param name="a">Первый футболист.</param>
+            <param name="b">Второй футболист.</param>
+            <returns>Положительное число, если у <paramref name="a"/> больше голов;
+            отрицательное — если у <paramref name="b"/>;
+            0 — если одинаково.</returns>
+        </member>
+    </members>
+</doc>

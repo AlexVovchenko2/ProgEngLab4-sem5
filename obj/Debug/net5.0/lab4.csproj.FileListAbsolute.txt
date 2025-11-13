@@ -1,0 +1,14 @@
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\bin\Debug\net5.0\lab4.deps.json
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\bin\Debug\net5.0\lab4.dll
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\bin\Debug\net5.0\lab4.pdb
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\bin\Debug\net5.0\lab4.xml
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\lab4.csproj.AssemblyReference.cache
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\lab4.AssemblyInfoInputs.cache
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\lab4.AssemblyInfo.cs
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\lab4.csproj.CoreCompileInputs.cache
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\lab4.dll
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\refint\lab4.dll
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\lab4.xml
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\lab4.pdb
+C:\Users\alexv\задания к сессии\5 семестр\Программная инженерия\lab4\obj\Debug\net5.0\ref\lab4.dll
