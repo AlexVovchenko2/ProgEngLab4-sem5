@@ -72,7 +72,13 @@
             </summary>
             <returns>Строковое представление объекта Footballer.</returns>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:lab4.Footballer.ScoreGoals(System.Int32)" -->
+        <member name="M:lab4.Footballer.ScoreGoals(System.Int32)">
+            <summary>
+            Добавляет голы к общему счёту футболиста.
+            </summary>
+            <param name="count">Количество голов для добавления (должно быть ≥ 0).</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">Выбрасывается, если count меньше 0.</exception>
+        </member>
         <member name="M:lab4.Footballer.ChangeClub(System.String)">
             <summary>
             Изменяет клуб футболиста.

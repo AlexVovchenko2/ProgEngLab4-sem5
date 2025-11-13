@@ -11,14 +11,15 @@ namespace lab4
         private int _heightCm;      
         private int _points;
         private int _rebounds;      
-        private int _blocks;        
+        private int _blocks;
+        private int _games;
 
         /// <summary>
         /// Создаёт нового баскетболиста.
         /// </summary>
         /// <param name="name">Имя баскетболиста.</param>
         /// <param name="heightCm">Рост в сантиметрах (150–250).</param>
-        public Basketballer(string name, int heightCm)
+        public Basketballer(string name, int heightCm, int games = 0)
         {
             _name = name ?? throw new ArgumentNullException(nameof(name));
             if (heightCm < 150 || heightCm > 250)
@@ -27,6 +28,7 @@ namespace lab4
             _points = 0;
             _rebounds = 0;
             _blocks = 0;
+            _games = games;
         }
 
         /// <summary>
@@ -74,7 +76,8 @@ namespace lab4
         /// <returns>Строковое представление объекта.</returns>
         public override string ToString()
         {
-            return $"{_name} ({_heightCm} см), очки: {_points}, подборы: {_rebounds}, блоки: {_blocks}";
+            return $"{_name} ({_heightCm} см), " +
+           $"очки: {_points}, подборы: {_rebounds}, блоки: {_blocks}, игры: {_games}";
         }
 
         /// <summary>
@@ -82,5 +85,17 @@ namespace lab4
         /// </summary>
         /// <returns><c>true</c>, если рост ≥ 205 см; иначе <c>false</c>.</returns>
         public bool IsCenter() => _heightCm >= 205;
+
+
+
+        /// <summary>
+        /// Увеличивает счётчик сыгранных игр.
+        /// </summary>
+        /// <param name="count">Количество добавляемых игр (≥ 0).</param>
+        public void AddGames(int count)
+        {
+            if (count < 0) throw new ArgumentOutOfRangeException(nameof(count));
+            _games += count;
+        }
     }
 }
