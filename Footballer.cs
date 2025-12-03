@@ -67,7 +67,7 @@ namespace lab4
         /// Проверяет, является ли футболист опытным (возраст ≥ 28 и забил хотя бы 50 голов).
         /// </summary>
         /// <returns><c>true</c>, если опытный; иначе <c>false</c>.</returns>
-        public bool IsExperienced() => _age >= 28 && _goalsScored >= 50;
+        public bool IsExperienced() => _age >= 33 && _goalsScored >= 100;
 
         /// <summary>
         /// Статический метод для сравнения двух футболистов по количеству голов.
