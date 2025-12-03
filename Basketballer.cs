@@ -81,10 +81,10 @@ namespace lab4
         }
 
         /// <summary>
-        /// Является ли игрок "центровым": рост ≥ 205 см.
+        /// Является ли игрок "центровым": рост ≥ 215 см.
         /// </summary>
-        /// <returns><c>true</c>, если рост ≥ 205 см; иначе <c>false</c>.</returns>
-        public bool IsCenter() => _heightCm >= 205;
+        /// <returns><c>true</c>, если рост ≥ 215 см; иначе <c>false</c>.</returns>
+        public bool IsCenter() => _heightCm >= 215;
 
 
 
